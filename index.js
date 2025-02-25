@@ -28,6 +28,7 @@ const PORT = 3000;
 app.use("/api/meetings", meetingRoutes);
 app.use("/api/rooms", roomRoutes);
 
+
 app.listen(PORT, () => {
   console.log(`Server running at ${PORT}`);
 });
